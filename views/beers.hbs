@@ -1,0 +1,11 @@
+<h1>beers</h1>
+<div> 
+    <ul>
+        {{#each beersFromApi}}
+            <li> 
+                <h2>{{id}} </h2>
+                {{>beerpartial}}
+            </li>
+        {{/each}}
+    </ul>
+</div>
